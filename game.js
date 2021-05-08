@@ -41,7 +41,7 @@ function selectOption(option) {
 
 const textNodes = [{
         id: 1,
-        text: 'hiii if you are reading this, well it means you are at Malaysia now and there are thousands of miles between us so... I made this for the farewell because ill miss you so much and I dont know when or where else I can see you so... wanna take a look?',
+        text: 'hiii if you are reading this, well it means you are at Malaysia now and there are thousands of mile between us so... I made this for the farewell because ILL MISS YOU SO MUCH and I dont know when or where else I can see you so... wanna take a look?',
         options: [{
                 text: 'well... sure ',
                 setState: { blueGoo: true },
@@ -59,25 +59,126 @@ const textNodes = [{
         options: [{
                 text: 'Good things with you ',
 
-                nextText: 3
+                nextText: 25
             },
             {
                 text: 'things that I havent told you before',
 
-                nextText: 3
+                nextText: 18
             },
             {
-                text: 'why most of the times i disappear',
+                text: 'why most of the time i disappeared',
                 nextText: 16
+            },
+            {
+                text: 'more topic',
+                nextText: 3
             }
         ]
     },
     {
-        id: 16,
-        text: 'well, if we are talking about lately it is because of this honestly because there are lots of trial and error BUT when i said i had problem with connection or anything it is the truth i never gonna lie to you about it bc i love talking to you hehe',
+        id: 25,
+        text: 'humn well i dont know exactly know how to tell you about this one, but one thing for sure i had my best time with you well i hope it wasnt only me that felt like that hehe. like what? well, i always tell you that i like walking with you right? well not gonna lie walking with you give me the feeling of lots of affection that u gave me, also i wasnt lying when i told you that youre the only one that gave me lots of attention and it makes me feel really bad that i didnt do as well as you.',
         options: [{
-            text: '...',
-            nextText: 3
+            text: 'next',
+            nextText: 26
+        }]
+    },
+    {
+        id: 26,
+        text: 'also idk about you but, do you remember when we used to hang out together? well tbh i had some of my best memories with you there, i cant stop thinking how funny you are till now (in a good meaning ofc). you made that silly faces hehe, god ill miss that a lot.',
+        options: [{
+            text: 'next',
+            nextText: 27
+        }]
+    },
+    {
+        id: 27,
+        text: 'ALSO not to mention all of the hugs u gave me as well, i know ive said it already but screw it , your hugs really meant a lot to me, bc i feel more love than i ever got before from anyone else and i thank you so much for them and ill miss them too hehe. i hope i can hug you at this point while im writting this but i know i cant so... virtual hugs?',
+        options: [{
+            text: 'next',
+            nextText: 28
+        }]
+    },
+    {
+        id: 28,
+        text: 'although i just mentioned a few examples but just for you to know i had more good things with you than i ever had with anyone else so once again thanks dude i will never ever forget about you even if we cant ever meet again. also this is the end of this part so next one?',
+        options: [{
+            text: 'next topic',
+            nextText: 2
+        }]
+    },
+    {
+        id: 18,
+        text: 'im sorry i have few things that i just couldnt tell you before but since this might be the last time we met and might also be my last gift for you physically, so here you go:',
+        options: [{
+            text: 'next',
+            nextText: 19
+
+        }]
+    },
+    {
+        id: 19,
+        text: 'first, i wanna talk about when we were still together. You always wanted to see my cry or mad back at you for once, and i always said that i cant mad at you or just cry like that. the truth is when something hurts me either if its from you or not it will affect my feelings so bad ? and you know how much i cant show them to anyone or let it go esp not to you and that is the reason why i cant mad or cry when people see, until i met you, i learned so many things from you esp about feelings and how to treat people. so thank you very very much for it.',
+        options: [{
+            text: 'next',
+            nextText: 20
+        }]
+    },
+    {
+        id: 20,
+        text: 'second is when we are not together anymore and until now, i know the fact that you hate me so much and say shit things to me bc u have so much anger in you and i understand it, yes it hurts so much but it wont change the fact that i love you so much, and i know the fact that i never ever deserve someone like you, u have done so many help for me, u care for me, you gave me affection that no one has ever gave me before. maybe this sounds exaggerating for you or maybe you think "im a straight people thats why i exaggerating when someone gives special care for other" but i said it because what you did means a lot to me.',
+        options: [{
+            text: 'next',
+            nextText: 21
+        }]
+    },
+    {
+        id: 21,
+        text: 'i realize i didnt have any good things to say or topic when we are talking anymore hhh im sorry, im not really sure what the reason is but its for sure not because of i dont wanna talk to you or bored of talking to you, yes im tired of having we arguing everyday but it wont stop me from always wanting to talk to you. Also yes i feel very lost for disappearing a lot bc it makes you far from me and so am i, so im so sorry for it and uh yes i always think about you everyday even when youre blocking me or when im not online and i hh i tried to write down everything about us so this is it ive written everything here.',
+        options: [{
+            text: 'next',
+            nextText: 22
+        }]
+    },
+    {
+        id: 22,
+        text: 'one last thing, im sorry for stalking you all these times, i just cant hold the fact that im missing you so much already. I know youre maybe blocking me on instagram, i wish i never knew that u said "take me out someone, either on a date or by punching me" at your story but i realized that im not someone in your life that you have to put priority anymore and the fact that uve said that "you do realize we cant go back to the way things were right" it just makes all of my hopes and motivations gone in a zap of time hhh. SO ill be glad i hope when u find someone else later, im sure there are lots of people that want to be your special someone :D',
+        options: [{
+            text: 'next',
+            nextText: 23
+        }]
+    },
+    {
+        id: 23,
+        text: 'pretty long huh? hehehe sorry for that, it takes me months of preparation and to stucture it, well i guess there is one last thing im sorry for repeating the same mistake again and again, its because im a forgetful person as you know but other than that i like the way that youre mad at me it somehow show me how you love me and i love it but also hate it bc i earned it that way, so im so so sorry for being such a big selfish shit here. oh yeah last last thing i never ever want to give up on you not because of guilt or anything the truth is because i feel like youre the one for me and bc youre special and not like other girl i know, no matter what your condition is.',
+        options: [{
+            text: 'next',
+            nextText: 24
+        }]
+    },
+    {
+        id: 24,
+        text: 'well thats it, i have told you everything now hehe i feel very relieved. So shall we go to the next topic?',
+        options: [{
+            text: 'next topic',
+            nextText: 2
+        }]
+    },
+    {
+        id: 16,
+        text: 'first im so terribly sorry for that. Well, if we are talking about lately it is because of this honestly because there are lots of trial and error BUT when i said i had problem with connection or anything it is the truth i never gonna lie to you about it bc i love talking to you hehe',
+        options: [{
+            text: 'next',
+            nextText: 17
+        }]
+    },
+    {
+        id: 17,
+        text: 'but in general mostly because i have problems or sometimes its because im having try outs or uh studying for UTBK hehe, iknow i supposed to tell u that before but hhh im sorry i dont want you to feel like shit bc i know u dont like being beaten by someone and i dont want you to feel like that and also im so scared to take the risks before, but im trying to do it now (as im still working on this hehe)',
+        options: [{
+            text: 'ok, next topic',
+            nextText: 2
         }]
     },
     {
@@ -179,9 +280,9 @@ const textNodes = [{
     },
     {
         id: 12,
-        text: 'I love you the most <33333333.',
+        text: 'I love you the most <33333333, yup you dont have to count there are 8 of them :D, also this is the end so I hope youll be fine there ,take care:D',
         options: [{
-            text: 'yup you dont have to count there are 8 of them :D, also this is the end so I hope youll be fine there ,take care:D',
+            text: 'End',
             nextText: -1
         }]
     },
